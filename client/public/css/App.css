@@ -1,0 +1,305 @@
+header a.active p {
+  color: var(--secondary-bright) !important;
+  font-size: 120% !important;
+  font-weight: bolder !important;
+}
+
+body {
+  background-image: url("../img/find-happy-hour.jpg");
+  place-items: unset;
+}
+
+form .MuiFormControl-root label.Mui-focused {
+  color: var(--secondary-bright);
+  top: -10px;
+}
+
+header {
+  background-color: var(--primary-dark);
+}
+
+header[class*="MuiAppBar"] a p {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h1.page-title__small {
+  color: var(--secondary-bright);
+  font-size: 1em;
+  font-weight: bolder;
+  margin-top: 0.5em;
+}
+
+h1.section-title {
+  color: white;
+}
+
+.ghost-text {
+  color: var(--alt);
+}
+
+.establishment {
+  background-color: white;
+  border-radius: 1em;
+  margin: 1em auto;
+  max-width: 940px;
+  padding: 1em;
+  text-align: start;
+  width: 85%;
+}
+
+.establishment h2 {
+  margin: 0;
+}
+
+.establishment span {
+  margin: 0;
+}
+
+.establishment li {
+  list-style: none;
+}
+
+.establishment .special-category {
+  margin-right: 0.25em;
+}
+
+.footer-nav {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.no-specials {
+  position: relative;
+  top: 5em;
+}
+
+.page-title__small + h2.section-title {
+  font-size: 3em;
+  margin-bottom: -0.25em;
+  margin-top: -0.3em;
+}
+
+.section-button-text-only {
+  color: var(--alt);
+  margin-bottom: 1em;
+}
+
+.section-label {
+  margin-bottom: 0.25em;
+}
+
+.section-button__text-only_ghost {
+  color: var(--alt);
+}
+
+.section-title {
+  margin: 0.25em 0 0;
+  padding: 0 0.25em;
+}
+
+.section-title,
+.section-label {
+  color: white;
+}
+
+.special-category {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  color: rgb(24, 23, 23);
+  margin-right: 0.25rem;
+  padding: 0.25em;
+}
+
+.special-info {
+  margin: 1em 0.5em;
+}
+
+.special-info p {
+  margin: 0 0 0.5em;
+}
+
+.specials-label {
+  margin: 1em 0 0;
+}
+
+.specials-on-now {
+  border: 0.25em solid #297729;
+}
+
+.special-on-now {
+  background-color: #d6ebd6;
+  padding: 1em;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 20px black;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+#footer {
+  margin-top: auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#footer {
+  align-items: center;
+  background-color: #071245;
+  color: #6a6d86;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  justify-content: inherit;
+  padding: 1em 2em;
+}
+
+#footer .footer-nav li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 29px;
+}
+
+/* MUI adjustments */
+button.MuiTab-root.Mui-selected {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bolder;
+}
+
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorPrimary.day-navbar.MuiPaper-elevation4 {
+  margin-top: 1.5em;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  display: block !important;
+}
+
+.MuiAppBar-root {
+  margin: 0 auto;
+  width: 80%;
+}
+.MuiBox-root.css-1t6c9ts {
+  justify-content: space-around;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: space-around;
+}
+
+.PrivateTabIndicator-colorSecondary-3 {
+  background-color: #00f517;
+}
+
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorPrimary.day-navbar.MuiPaper-elevation4 {
+  background-color: #070759;
+}
+
+span.PrivateTabIndicator-root-1.PrivateTabIndicator-colorSecondary-3.MuiTabs-indicator {
+  background-color: green;
+}
+
+header.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: var(--primary-dark);
+}
+
+.MuiTabs-root .MuiTab-root {
+  color: white;
+  padding: 6px 2px;
+  font-size: 0.5rem;
+  min-width: fit-content !important;
+}
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
+  font-size: 0.6rem;
+  padding: 6px 2px;
+}
+
+.MuiTabs-flexContainer + .MuiTabs-indicator {
+  background-color: green;
+}
+
+.MuiOutlinedInput-root input {
+  background-color: white;
+}
+a.MuiTypography-root.MuiTypography-h5.MuiTypography-noWrap.css-17l1p20-MuiTypography-root {
+  font-size: 20px;
+  font-weight: 700;
+  height: 26.6719px;
+  letter-spacing: 4.8px;
+  line-height: 26.68px;
+  margin-right: 16px;
+  text-decoration-thickness: auto;
+  text-wrap: nowrap;
+  width: 274.484px;
+}
+
+@media screen and (min-width: 700px) {
+  header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorPrimary.day-navbar.MuiPaper-elevation4 {
+    width: 80%;
+  }
+  button.MuiTab-root.Mui-selected {
+    font-size: 1.1rem;
+  }
+
+  .MuiTabs-root .MuiTab-root {
+    font-size: 0.9rem;
+  }
+
+  #footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 950px) {
+}
